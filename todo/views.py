@@ -15,7 +15,8 @@ def apioverview(request):
         'Detail View': '/task-detail/<str:pk>/',
         'Create': '/task-create/',
         'Update': '/task-update/<str:pk>/',
-        'Delete': '/task-delete/<str:pk>/'
+        'Delete': '/task-delete/<str:pk>/',
+        'Documentation': '/schema/docs/'
     }
     return Response(api_urls)
 
